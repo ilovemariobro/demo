@@ -33,7 +33,7 @@ function BaseLanding() {
 
   return win !== undefined && win.WebGLRenderingContext !== undefined ? (
     <Landing />
-  )
+  ) :
 }
 
 export default function App() {
