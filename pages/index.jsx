@@ -5,6 +5,7 @@ import Head from 'next/head'
 
 import { Landing } from '../components/landing'
 import { useEffect, useMemo, useState } from 'react'
+import ThreeCanvas from '../components/canvas'
 
 const theme = createTheme({
   palette: {
@@ -32,8 +33,10 @@ function BaseLanding() {
   })
 
   return win !== undefined && win.WebGLRenderingContext !== undefined ? (
+    <ThreeCanvas />
+  ) : (
     <Landing />
-  ) :
+  )
 }
 
 export default function App() {
