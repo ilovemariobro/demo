@@ -32,7 +32,6 @@ function BaseLanding() {
   })
 
   return win !== undefined && win.WebGLRenderingContext !== undefined ? (
-    <ThreeCanvas />
   ) : (
     <Landing />
   )
