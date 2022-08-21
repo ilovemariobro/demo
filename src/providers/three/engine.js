@@ -1,8 +1,3 @@
-//
-// It should go without saying that this file is intended to be used on frontend
-// clients only. This IS NOT a backed module and will crash if run on a node app.
-//
-
 import * as three from 'three'
 import { AxesHelper } from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
