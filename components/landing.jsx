@@ -62,7 +62,7 @@ export function Landing() {
   return (
     <Box
       width="100vw"
-      height="100vh"
+      height="300vh"
       sx={{
         '&::after, &::before': {
           boxSizing: 'border-box',
@@ -70,7 +70,7 @@ export function Landing() {
         '&::after': {
           content: "''",
           width: '100vw',
-          height: '100vh',
+          height: '300vh',
           display: 'flex',
           position: 'fixed',
           backgroundSize: 'cover',
