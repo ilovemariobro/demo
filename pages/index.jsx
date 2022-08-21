@@ -3,6 +3,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles'
 
 import Head from 'next/head'
 
+import { Landing } from '../components/landing'
 import { useEffect, useMemo, useState } from 'react'
 
 const theme = createTheme({
@@ -42,12 +43,13 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <Box>
         <Head>
-          <title>Demo</title>
+          <title>Arone Susau</title>
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0, viewport-fit=cover"
           />
         </Head>
+        <BaseLanding />
       </Box>
     </ThemeProvider>
   )
