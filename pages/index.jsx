@@ -50,7 +50,7 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <Box>
         <Head>
-          <title>Arone Susau</title>
+          <title>Demo</title>
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0, viewport-fit=cover"
