@@ -5,7 +5,7 @@ function LandingContent() {
     <Fade appear in timeout={2500}>
       <Box
         width="100%"
-        height="1000vh"
+        height="500vh"
         display="flex"
         flexDirection="column"
         justifyContent="center"
@@ -62,7 +62,7 @@ export function Landing() {
   return (
     <Box
       width="100vw"
-      height="1000vh"
+      height="500vh"
       sx={{
         '&::after, &::before': {
           boxSizing: 'border-box',
@@ -70,7 +70,7 @@ export function Landing() {
         '&::after': {
           content: "''",
           width: '100vw',
-          height: '1000vh',
+          height: '500vh',
           display: 'flex',
           position: 'fixed',
           backgroundSize: 'cover',
