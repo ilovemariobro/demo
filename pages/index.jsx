@@ -7,7 +7,6 @@ import { Landing } from '../components/landing'
 import About from '../components/about'
 import Contact from '../components/contact'
 import Projects from '../components/projects'
-import Work from '../components/work'
 import { useEffect, useMemo, useState } from 'react'
 import ThreeCanvas from '../components/canvas'
 
@@ -56,7 +55,6 @@ export default function App() {
         </Head>
         <BaseLanding />
         <About />
-        <Work />
         <Projects />
         <Contact />
       </Box>
