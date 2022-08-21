@@ -23,7 +23,7 @@ function LandingContent() {
     <Fade appear in={showHeader} timeout={1000}>
       <Box
         width="100%"
-        height="1000%"
+        height="500%"
         display="flex"
         flexDirection="column"
         justifyContent="center"
@@ -120,7 +120,7 @@ export default function ThreeCanvas() {
   return win !== undefined ? (
     <Box
       width="100vw"
-      height="1000vh"
+      height="500vh"
       sx={{
         backgroundColor: 'transparent',
       }}
