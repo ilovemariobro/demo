@@ -42,42 +42,6 @@ function LandingContent() {
           padding={5}
           sx={{ backgroundColor: 'none' }}
         >
-          <Typography
-            variant="h1"
-            gutterBottom
-            color="#ffffff"
-            fontFamily="'Didact Gothic', sans-serif"
-          >
-            Arone Susau
-          </Typography>
-          <Typography
-            variant="h4"
-            gutterBottom
-            color="#ffffff"
-            fontFamily="'Didact Gothic', sans-serif"
-          >
-            Melbourne, Australia
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            fontWeight="light"
-            color="#ffffff"
-            gutterBottom
-            fontFamily="'Didact Gothic', sans-serif"
-          >
-            I'm a software engineer specialising in building web application
-            using cloud technologies. Currently, I'm focused on creating
-            scalable and performant products at{' '}
-            <Link
-              href="https://www.blackmagicdesign.com/"
-              color="#ffffff"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Blackmagic Design
-            </Link>
-            .
-          </Typography>
         </Box>
       </Box>
     </Fade>
