@@ -3,15 +3,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles'
 
 import Head from 'next/head'
 
-import { Landing } from '../components/landing'
-import About from '../components/about'
-import Contact from '../components/contact'
-import Projects from '../components/projects'
-import Work from '../components/work'
-import Footer from '../components/footer'
-import Header from '../components/header'
 import { useEffect, useMemo, useState } from 'react'
-import ThreeCanvas from '../components/canvas'
 
 const theme = createTheme({
   palette: {
@@ -56,13 +48,6 @@ export default function App() {
             content="width=device-width, initial-scale=1.0, viewport-fit=cover"
           />
         </Head>
-        <Header />
-        <BaseLanding />
-        <About />
-        <Work />
-        <Projects />
-        <Contact />
-        <Footer />
       </Box>
     </ThemeProvider>
   )
