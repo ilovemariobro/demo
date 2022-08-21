@@ -18,7 +18,6 @@ import { useCallback, useState } from 'react'
 
 import * as uuid from 'uuid'
 
-<div className="overflow-auto"></div>
 function ContactInfo() {
   return (
     <Grid item>
