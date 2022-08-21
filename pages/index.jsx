@@ -4,7 +4,6 @@ import { createTheme, ThemeProvider } from '@mui/material/styles'
 import Head from 'next/head'
 
 import { Landing } from '../components/landing'
-import Projects from '../components/projects'
 import { useEffect, useMemo, useState } from 'react'
 import ThreeCanvas from '../components/canvas'
 
@@ -52,7 +51,6 @@ export default function App() {
           />
         </Head>
         <BaseLanding />
-        <Projects />
       </Box>
     </ThemeProvider>
   )
