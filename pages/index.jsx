@@ -3,9 +3,9 @@ import { createTheme, ThemeProvider } from '@mui/material/styles'
 
 import Head from 'next/head'
 
-import { Landing } from '../landing'
+import { Landing } from '../components/landing'
 import { useEffect, useMemo, useState } from 'react'
-import ThreeCanvas from '../canvas'
+import ThreeCanvas from '../components/canvas'
 
 const theme = createTheme({
   palette: {
