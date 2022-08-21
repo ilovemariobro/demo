@@ -18,6 +18,7 @@ import { useCallback, useState } from 'react'
 
 import * as uuid from 'uuid'
 
+<div className="overflow-auto"></div>
 function ContactInfo() {
   return (
     <Grid item>
@@ -30,7 +31,7 @@ function ContactInfo() {
           color: '#ffffff',
         }}
       >
-        Get in touch
+        
       </Typography>
       <Typography
         variant="body1"
@@ -41,8 +42,7 @@ function ContactInfo() {
           color: '#ffffff',
         }}
       >
-        Whether you want to talk about tech, work or just wanted to say hello.
-        My inbox is always open. I'll try my best to get back to you!
+      
       </Typography>
     </Grid>
   )
